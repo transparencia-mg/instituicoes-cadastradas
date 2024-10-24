@@ -15,7 +15,11 @@ resources:
     schema:
       fields:
         - name: identificador
+          description: >
+             Número único ou código identificador de cada instituição. Esse campo serve para diferenciar e referenciar cada instituição individualmente no conjunto de dados.
+          title: Identificador
           type: integer
+          format: default
         - name: nome_instituicao
           type: string
         - name: estado
