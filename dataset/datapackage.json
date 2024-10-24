@@ -4,7 +4,7 @@
   "profile": "data-package",
   "resources": [
     {
-      "description": "Insira a descrição/explicação detalhada deste recurso.",
+      "description": "O conjunto de dados refere-se a instituições cadastradas no banco de dados da FAPEMIG, abrangendo diversas organizações, como associações comunitárias, instituições privadas e fundações públicas de diferentes estados do Brasil.",
       "dialect": {
         "delimiter": ";"
       },
@@ -43,8 +43,8 @@
         ]
       },
       "scheme": "file",
-      "title": "Instituicoes cadastradas."
+      "title": "Instituicoes Cadastradas"
     }
   ],
-  "title": "Instituicoes cadastradas"
+  "title": "Instituicoes Cadastradas"
 }
