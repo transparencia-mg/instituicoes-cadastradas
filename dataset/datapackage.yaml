@@ -34,12 +34,6 @@ resources:
           format: default
           type: string
         - name: lct
-          description: >
-            Indica se a instituição é classificada como uma Instituição de Ciência e Tecnologia (ICT). 
-            O campo é preenchido com “Sim” para as instituições que foram identificadas como ICTs e “"Não" para aquelas que não se enquadram nessa categoria. 
-            Em casos onde a informação não foi registrada ou não pôde ser determinada no momento do cadastro, o valor “#NA” será utilizado, sinalizando a ausência ou indeterminação dos dados.
-          title: Instituição de Ciência e Tecnologia .
-          format: defaut 
           type: string
         - name: situacao
           type: string
