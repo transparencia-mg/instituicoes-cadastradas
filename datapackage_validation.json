@@ -48,6 +48,9 @@
             },
             {
               "name": "tipo_instituicao",
+              "description": "Descreve o tipo de instituição, categorizando-a como \"Privada com fins lucrativos\", \"Privada sem fins lucrativos\", \"Pública Federal\", ou permanecendo em branco caso  essa informação não esteja disponível. Em casos onde a informação não foi registrada ou não pôde ser determinada no momento do cadastro, o valor “#NA” será utilizado, sinalizando a ausência ou indeterminação dos dados.\n",
+              "title": "Tipo de instituição",
+              "format": "default",
               "type": "string"
             }
           ]
