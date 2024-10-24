@@ -1,6 +1,6 @@
 {
   "version": "4.16.6",
-  "time": 0.052,
+  "time": 0.05,
   "errors": [],
   "tasks": [
     {
@@ -19,7 +19,10 @@
           "fields": [
             {
               "name": "identificador",
-              "type": "integer"
+              "description": "Número único ou código identificador de cada instituição. Esse campo serve para diferenciar e referenciar cada instituição individualmente no conjunto de dados.\n",
+              "title": "Identificador",
+              "type": "integer",
+              "format": "default"
             },
             {
               "name": "nome_instituicao",
@@ -52,7 +55,7 @@
           "rows": 2328
         }
       },
-      "time": 0.043,
+      "time": 0.042,
       "scope": [
         "hash-count-error",
         "byte-count-error",
