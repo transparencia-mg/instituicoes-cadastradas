@@ -1,6 +1,6 @@
 {
   "version": "4.16.6",
-  "time": 0.051,
+  "time": 0.052,
   "errors": [],
   "tasks": [
     {
@@ -26,6 +26,9 @@
             },
             {
               "name": "nome_instituicao",
+              "description": "Nome completo de cada instituição, empresa, associação ou fundação registrada no conjunto de dados. Este campo é essencial para a identificação e consulta das entidades.\n",
+              "title": "Nome da instituição",
+              "format": "default",
               "type": "string"
             },
             {
@@ -55,7 +58,7 @@
           "rows": 2328
         }
       },
-      "time": 0.042,
+      "time": 0.043,
       "scope": [
         "hash-count-error",
         "byte-count-error",
