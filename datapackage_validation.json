@@ -44,6 +44,9 @@
             },
             {
               "name": "situacao",
+              "description": "Informa o status atual da instituição, sendo \"Ativa\" para instituições em funcionamento e \"Inativa\" para aquelas que não estão mais em atividade.",
+              "title": "Situação",
+              "format": "default",
               "type": "string"
             },
             {
