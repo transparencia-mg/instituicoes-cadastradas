@@ -1,11 +1,11 @@
 {
   "version": "4.16.6",
-  "time": 0.051,
+  "time": 0.052,
   "errors": [],
   "tasks": [
     {
       "resource": {
-        "description": "Insira a descrição/explicação detalhada deste recurso.",
+        "description": "O conjunto de dados refere-se a instituições cadastradas no banco de dados da FAPEMIG, abrangendo diversas organizações, como associações comunitárias, instituições privadas e fundações públicas de diferentes estados do Brasil.",
         "dialect": {
           "delimiter": ";"
         },
@@ -44,7 +44,7 @@
           ]
         },
         "scheme": "file",
-        "title": "Instituicoes cadastradas.",
+        "title": "Instituicoes Cadastradas",
         "stats": {
           "hash": "18f8b2ac5ce207ca72fa17f8c5cf9db4",
           "bytes": 223097,
@@ -52,7 +52,7 @@
           "rows": 2328
         }
       },
-      "time": 0.042,
+      "time": 0.043,
       "scope": [
         "hash-count-error",
         "byte-count-error",
