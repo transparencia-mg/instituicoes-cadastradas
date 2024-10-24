@@ -21,8 +21,17 @@ resources:
           type: integer
           format: default
         - name: nome_instituicao
+          description: >
+             Nome completo de cada instituição, empresa, associação ou fundação registrada no conjunto de dados. Este campo é essencial para a identificação e consulta das entidades.
+          title: Nome da Instituição
+          format: defaut  
           type: string
         - name: estado
+          description: >
+            Indica o estado brasileiro em que a instituição está localizada. Os estados são representados pelos seus respectivos nomes completos, como "Minas Gerais", 
+            "Rio de Janeiro", etc.
+          title: Estado
+          format: defaut  
           type: string
         - name: lct
           type: string
