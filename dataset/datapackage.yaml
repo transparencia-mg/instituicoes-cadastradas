@@ -2,7 +2,8 @@ name: instituicoes-cadastradas
 owner_org: fundacao-de-amparo-a-pesquisa-fapemig
 profile: data-package
 resources:
-  - description: Insira a descrição/explicação detalhada deste recurso.
+  - description: O conjunto de dados refere-se a instituições cadastradas no banco de dados da FAPEMIG, abrangendo diversas organizações, como associações comunitárias, instituições 
+     privadas e fundações públicas de diferentes estados do Brasil.
     dialect:
       delimiter: ;
     encoding: utf-8-sig
@@ -26,5 +27,5 @@ resources:
         - name: tipo_instituicao
           type: string
     scheme: file
-    title: Instituicoes cadastradas.
-title: Instituicoes cadastradas
+    title: Instituicoes Cadastradas
+title: Instituicoes Cadastradas
