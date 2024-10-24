@@ -1,0 +1,30 @@
+name: instituicoes-cadastradas
+owner_org: fundacao-de-amparo-a-pesquisa-fapemig
+profile: data-package
+resources:
+  - description: Insira a descrição/explicação detalhada deste recurso.
+    dialect:
+      delimiter: ;
+    encoding: utf-8-sig
+    format: csv
+    hashing: md5
+    name: instituicoes-cadastradas
+    path: data/instituicoes-cadastradas.csv
+    profile: tabular-data-resource
+    schema:
+      fields:
+        - name: identificador
+          type: integer
+        - name: nome_instituicao
+          type: string
+        - name: estado
+          type: string
+        - name: lct
+          type: string
+        - name: situacao
+          type: string
+        - name: tipo_instituicao
+          type: string
+    scheme: file
+    title: Insira um título humanamente legível para este recurso.
+title: Instituicoes cadastradas
