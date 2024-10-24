@@ -21,6 +21,10 @@ resources:
           type: integer
           format: default
         - name: nome_instituicao
+          description: >
+            Nome completo de cada instituição, empresa, associação ou fundação registrada no conjunto de dados. Este campo é essencial para a identificação e consulta das entidades.
+          title: Nome da instituição
+          format: default
           type: string
         - name: estado
           type: string
