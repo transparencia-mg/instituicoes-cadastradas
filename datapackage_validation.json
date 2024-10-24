@@ -1,6 +1,6 @@
 {
   "version": "4.16.6",
-  "time": 0.052,
+  "time": 0.051,
   "errors": [],
   "tasks": [
     {
@@ -33,6 +33,9 @@
             },
             {
               "name": "estado",
+              "description": "Indica o estado brasileiro em que a instituição está localizada. Os estados são representados pelos seus respectivos nomes completos, como \"Minas Gerais\",  \"Rio de Janeiro\", etc.\n",
+              "title": "Estado",
+              "format": "default",
               "type": "string"
             },
             {
@@ -58,7 +61,7 @@
           "rows": 2328
         }
       },
-      "time": 0.043,
+      "time": 0.042,
       "scope": [
         "hash-count-error",
         "byte-count-error",
