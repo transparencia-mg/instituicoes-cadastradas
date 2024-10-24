@@ -42,10 +42,6 @@ resources:
           format: defaut 
           type: string
         - name: situacao
-          description: >
-            Informa o status atual da instituição, sendo "Ativa" para instituições em funcionamento e "Inativa" para aquelas que não estão mais em atividade. 
-          title: Situação 
-          format: defaut  
           type: string
         - name: tipo_instituicao
           type: string
