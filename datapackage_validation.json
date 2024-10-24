@@ -44,7 +44,7 @@
           ]
         },
         "scheme": "file",
-        "title": "Insira um título humanamente legível para este recurso.",
+        "title": "Instituicoes cadastradas.",
         "stats": {
           "hash": "18f8b2ac5ce207ca72fa17f8c5cf9db4",
           "bytes": 223097,
@@ -52,7 +52,7 @@
           "rows": 2328
         }
       },
-      "time": 0.043,
+      "time": 0.042,
       "scope": [
         "hash-count-error",
         "byte-count-error",
